@@ -94,14 +94,14 @@ describe("CRUD", function() {
     it("Deleta dois itens", function () {
       let c = new CRUD();
 
-      c.createItem("Gabriel");
-      c.createItem("Fabricio");
-      c.createItem("Melrick");
+      c.createItem("Fulano");
+      c.createItem("Darline");
+      c.createItem("Betano");
 
       c.deleteItem(0)
       c.deleteItem(1)
 
-      assert.strictEqual(c.readItem(0), "Fabricio");
+      assert.strictEqual(c.readItem(0), "Darline");
     })
   })
 });
