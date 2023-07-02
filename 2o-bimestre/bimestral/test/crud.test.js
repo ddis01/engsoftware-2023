@@ -1,5 +1,4 @@
 const assert = require('assert');
-
 const {CRUD} = require('../src/crud'); // Importe as funções do programa CRUD
 
 describe("CRUD", function() {
