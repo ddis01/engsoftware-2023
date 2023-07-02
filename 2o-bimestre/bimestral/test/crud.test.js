@@ -17,7 +17,7 @@ describe("CRUD", function() {
 
         c.createItem("Item 1");
         c.createItem("Item 2");
-        c.createItem("Item 3")
+        c.createItem("Item 3");
 
         assert.strictEqual(c.items.length, 3);
     });
@@ -28,8 +28,9 @@ describe("CRUD", function() {
       let c = new CRUD();
 
         c.createItem("Item 1");
+        c.createItem("Item 2");
 
-        assert.strictEqual(c.items.length, 1);
+        assert.strictEqual(c.items.length, 2);
     })
   });
 
@@ -38,6 +39,7 @@ describe("CRUD", function() {
       let c = new CRUD();
 
         c.createItem("Item 1");
+        c.createItem("Item 2");
 
         assert.strictEqual(c.readItem(0), "Item 1");
     })
