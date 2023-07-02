@@ -5,7 +5,6 @@
   "name": "bimestral",
   "version": "1.0.0",
   "main": "arquivo.js",
-  "devDependencies": {},
   "scripts": {
     "test": "mocha"
   },
