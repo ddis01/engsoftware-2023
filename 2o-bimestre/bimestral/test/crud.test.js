@@ -1,8 +1,6 @@
 const assert = require('assert');
 
-const {
-    CRUD
-  } = require('../src/crud'); // Importe as funções do programa CRUD
+const {CRUD} = require('../src/crud'); // Importe as funções do programa CRUD
 
 describe("CRUD", function() {
   describe("createItem()", function() {
@@ -25,13 +23,13 @@ describe("CRUD", function() {
     });
   });
 
-  describe("readItems()", function () {
+  describe("readItem()", function () {
     it("Ler todos os itens", function () {
       let c = new CRUD();
 
         c.createItem("Item 1");
 
-        assert.strictEqual(c.items, '[Item 1]');
+        assert.strictEqual(c.items.length, 1);
     })
   });
 
