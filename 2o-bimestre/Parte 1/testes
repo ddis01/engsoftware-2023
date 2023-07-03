@@ -1,0 +1,77 @@
+1. Teste de conexão:
+
+Verifique se é possível estabelecer uma conexão com o banco de dados.
+Certifique-se de que os parâmetros de conexão (host, porta, nome de usuário, senha) estejam corretos.
+
+2. Teste de exclusão de dados:
+
+Exclua alguns dados do usuário.
+Verifique se os dados foram removidos corretamente.
+Execute uma consulta para garantir que os dados excluídos não estejam mais presentes.
+
+3. Teste de segurança:
+
+Enviar código de verificação ao logar (pelo Email ou número de celular).
+Reenviar código de verificação se caso não receber.
+
+4. Teste de desempenho:
+
+Execute operações de consulta, inserção, atualização e exclusão em grande escala para verificar o desempenho do App.
+
+Meça o tempo de resposta e a taxa de transferência para garantir que o App esteja funcionando dentro dos limites esperados.
+
+5. Teste de atualização de dados:
+
+Atualize alguns dados de seu perfil.
+Verifique se os dados foram atualizados corretamente.
+Execute uma consulta para verificar se as alterações foram aplicadas.
+
+6. Teste de criação de usuário:
+
+Verificar se um novo usuário pode ser criado com sucesso no sistema.
+
+Verificar se os detalhes do usuário são salvos corretamente.
+
+
+7. Teste de login:
+
+Verificar se um usuário registrado pode fazer login com sucesso no sistema.
+
+Verificar se o acesso é negado para credenciais inválidas.
+
+8. Teste de escalabilidade:
+
+Avalie o desempenho e a escalabilidade do banco de dados ao aumentar a carga de trabalho e a quantidade de dados.
+
+Verifique se o banco de dados pode lidar com eficiência com um aumento no número de usuários e volume de dados.
+
+Esses são apenas mais alguns exemplos de testes que você pode considerar para testar um banco de dados. Lembre-se de adaptar os testes de acordo com os requisitos específicos do seu sistema e aplicação.
+
+9. Teste de restrições de integridade:
+
+Verifique se as restrições de integridade, como chaves primárias, chaves estrangeiras e restrições de exclusão, estão funcionando corretamente.
+
+Tente inserir dados inválidos que violem essas restrições e verifique se o App os rejeita adequadamente.
+
+10. Teste de compatibilidade:
+
+Se o App estiver sendo atualizado ou migrado, verifique se a nova versão é compatível com a versão anterior.
+
+Realize testes de atualização e verifique se os dados são migrados corretamente sem perdas ou corrupção.
+
+11. Teste de limpeza de dados:
+
+Execute testes para verificar se os processos de limpeza e remoção de dados obsoletos ou duplicados são eficazes.
+
+Verifique se os dados indesejados são removidos corretamente e se o tamanho do banco de dados é reduzido.
+
+12. Teste de replicação:
+
+Se o banco de dados estiver usando replicação para alta disponibilidade ou escalabilidade, teste se os dados são replicados corretamente entre os nós.
+
+Verifique se a replicação ocorre em tempo real e se os dados são consistentes em todos os nós.
+
+13. Teste de criptografia de dados:
+
+Se o banco de dados oferece recursos de criptografia, teste se os dados são armazenados e recuperados corretamente.
+Verifique se os dados criptografados são protegidos contra acesso não autorizado.
